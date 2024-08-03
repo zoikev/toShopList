@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.app {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display:block;
+}
+  
+header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+  
+form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.inputNumber {
+    width: 70px;
+}
+  
+form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.shopList {
+    display: block;
+}
+
+div input[type='checkbox'] {
+    margin-right: 10px;
+}
+
+div button {
+    margin-left: auto;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div button:hover {
+    background-color: #cc0000;
+}
+  
