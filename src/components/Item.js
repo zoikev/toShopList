@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Componente para mostrar cada producto en la lista
 const Item = ({ item, onToggle, onDelete }) => {
     return (
         <div>
